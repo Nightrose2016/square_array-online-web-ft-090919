@@ -1,5 +1,12 @@
+  
 def square_array(array)
-  square_array = []
-  array.each { |num| squared << Math.sqrt(num) }
-  square_array
+  
+  new_array = []
+  
+  array.each do |num|
+    new_array << Mat.sqrt(num)
+  end
+  
+  new_array
+  
 end
